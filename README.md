@@ -13,6 +13,8 @@ Swift port of [Open Chinese Convert](https://github.com/BYVoid/OpenCC)
 
 ## Usage
 
+- Leave '乾' unconverted
+
 ### Quick Start
 
 ```swift
