@@ -13,7 +13,6 @@ Swift port of [Open Chinese Convert](https://github.com/BYVoid/OpenCC)
 
 ## Usage
 
-- Leave '乾' unconverted
 
 ### Quick Start
 
@@ -25,6 +24,10 @@ let converter = try! ChineseConverter(option: [.traditionalize, .twStandard, .tw
 converter.convert(str)
 // 滑鼠裡面的矽二極體壞了，導致游標解析度降低。
 ```
+
+### Main Changes
+
+- Leave '乾' unconverted
 
 ## Documentation
 
